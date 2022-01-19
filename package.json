@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
     "jest": "^27.4.7"
   },
   "name": "jest-test",
@@ -248,7 +249,8 @@
     "yargs-parser": "^20.2.9"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watch *.js"
   },
   "author": "",
   "license": "ISC",
